@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User do
+  asdfasdfasd
   describe "#generate_jwt" do
     it "generates a valid jwt with a payload of id" do
       sleep 1 + rand
