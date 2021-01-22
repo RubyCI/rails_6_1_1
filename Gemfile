@@ -22,7 +22,7 @@ gem 'pg'
 
 # TestFrameworks
 # minutest
-gem "rspec-rails"
+gem 'rspec-rails'
 # cucumber
 # test-unit
 # selenium
