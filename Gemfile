@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
-
+gem 'simplecov', require: false, group: :test
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.1'
 # Use sqlite3 as the database for Active Record
 
 # DBS
 # mysql
-# postgresql
-gem 'sqlite3'
+gem 'pg'
+# gem 'sqlite3'
 # oracle
 # sqlserver
 # jdbcmysql
@@ -20,7 +20,7 @@ gem 'sqlite3'
 
 # TestFrameworks
 # minutest
-# rspec
+gem "rspec-rails"
 # cucumber
 # test-unit
 # selenium
@@ -64,7 +64,6 @@ group :development do
   gem 'spring'
 end
 gem 'rexml'
-
 
 
 group :test do
