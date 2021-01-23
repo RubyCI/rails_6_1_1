@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe User do
   describe "#generate_jwt" do
     it "generates a valid jwt with a payload of id" do
-      sleep 1 + rand
+      expect(1).to be(2)
     end
   end
 
