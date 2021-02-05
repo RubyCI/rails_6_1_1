@@ -9,8 +9,8 @@ gem 'rails', '~> 6.1.1'
 
 # DBS
 # mysql
-# postgresql
-gem 'sqlite3'
+gem 'pg'
+# gem 'sqlite3'
 # oracle
 # sqlserver
 # jdbcmysql
@@ -20,7 +20,7 @@ gem 'sqlite3'
 
 # TestFrameworks
 # minutest
-# rspec
+gem "rspec-rails"
 # cucumber
 # test-unit
 # selenium
@@ -63,7 +63,6 @@ group :development do
   gem 'spring'
 end
 gem 'rexml'
-
 
 
 group :test do
