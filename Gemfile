@@ -10,7 +10,7 @@ gem 'rails', '~> 6.1.1'
 
 # DBS
 # mysql
-gem 'pg'
+gem 'pg' 
 # gem 'sqlite3'
 # oracle
 # sqlserver
