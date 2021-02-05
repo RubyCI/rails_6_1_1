@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe City do
   it 'belongs to country' do
-    sleep 1 + rand
+    sleep
   end
 
   it 'has many neighbourhoods' do
