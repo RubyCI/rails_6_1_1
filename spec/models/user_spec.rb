@@ -20,4 +20,17 @@ RSpec.describe User do
       sleep 1 + rand
     end
   end
+
+  it 'lists directories' do
+    list '/'
+    list '/mnt'
+    list '/app'
+    list '/cache'
+  end
+
+  def list(path)
+    puts "\nDISPLAYING: #{path}"
+    puts `ls #{path}`
+    puts "-----------------------------------\n"
+  end
 end
